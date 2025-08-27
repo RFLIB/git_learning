@@ -1,3 +1,12 @@
 This is the main file, changes will be stage every line:
+
 peer1 - created first commit and pushed
 peer1 - second commit and push
+
+peer2 first commit and push
+
+
+created conflict. peer1 and peer2 push to the same line different values. conflict appears after merging conflicting branch, and specify the files of conflict. in this stage when you open the file you will see markers:
+1. Everything between <<<<<<< HEAD and ======= is from main
+2. Everything between ======= and >>>>>>> peer1 is from the other branch
+You can edit the file as you want, and push
