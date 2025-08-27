@@ -1,2 +1,3 @@
 This is the main file, changes will be stage every line:
 peer2 first commit and push
+peer1 - created first commit and pushed
